@@ -2,7 +2,7 @@
 * @Author: creepingman
 * @Date:   2018-04-27 17:07:26
 * @Last Modified by:   creepingman
-* @Last Modified time: 2018-04-28 00:08:51
+* @Last Modified time: 2018-04-28 00:14:28
 */
 var san = require('./node_modules/san/dist/san.js');
 
@@ -13,9 +13,9 @@ var DataMani = san.defineComponent({
 		+'	<input type="text" value= "{= user.des =}" placeholder="pls introduce yourself a bit"></br>'
 		+'	<input type="button" class="button" value="Del message below" on-click="toggle"></br>'
 		/* Employ element-'span' to add additional effects for the program */
-		+'	<p>name: <span style= "text-decoration: underline">{{= user.name =}}</span></p>'
-		+'	<p>Age: <span style= "text-decoration: underline">{{= user.age =}}</span></p>'
-		+'	<p>Description: <span style= "text-decoration: underline">{{= user.des =}}</span></p>'
+		+'	<p>name: <span style= "text-decoration: underline">{{user.name}}</span></p>'
+		+'	<p>Age: <span style= "text-decoration: underline">{{user.age}}</span></p>'
+		+'	<p>Description: <span style= "text-decoration: underline">{{user.des}}</span></p>'
 		+'	</div>',
 
 			            /* Bad version */
