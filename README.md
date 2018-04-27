@@ -5,4 +5,5 @@
 <br>
 <br>
 <h2>Visual version of works</h2>
-<p>
+<p>2.1 Data manipulation</p>
+<img src="./src/img/data-manipulation.png">
