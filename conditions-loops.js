@@ -59,7 +59,7 @@ var Condition_loops = san.defineComponent({
     mark: function(index,mark) {
         /* to hide the button of 'Pend' */
         this.data.set("users["+index+"].checked", true);
-        /* to mark someone you typed into and replace the value in 'state' */
+        // to mark someone you typed into and replace the value in 'state'
         this.data.set("users["+index+"].state", mark);
     },
 });
